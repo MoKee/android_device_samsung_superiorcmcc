@@ -8,6 +8,14 @@
         "target_path": "kernel/samsung/piranha"
     },
     {
+        "repository": "android_vendor_samsung_superiorcmcc",
+        "target_path": "vendor/samsung/superiorcmcc"
+    },
+    {
+        "repository": "android_vendor_samsung_piranha",
+        "target_path": "vendor/samsung/piranha"
+    },
+    {
         "repository": "android_hardware_samsung",
         "target_path": "hardware/samsung"
     },
