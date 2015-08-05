@@ -33,7 +33,7 @@ BOARD_KERNEL_CMDLINE := console=ttyO2,115200n8 mem=1024M androidboot.console=tty
 
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/piranha
-TARGET_KERNEL_CONFIG := cyanogenmod_superiorcmcc_defconfig
+TARGET_KERNEL_CONFIG := mokee_superiorcmcc_defconfig
 
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/superior/include
 
@@ -52,7 +52,7 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # Hardware tunables
-#BOARD_HARDWARE_CLASS := device/samsung/superiorcmcc/cmhw
+#BOARD_HARDWARE_CLASS := device/samsung/superiorcmcc/mkhw
 
 # Egl
 BOARD_EGL_CFG := device/samsung/superiorcmcc/configs/egl.cfg
@@ -73,7 +73,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/class/android_usb/f_mass_storage/lun%d/
 BOARD_MOBILEDATA_INTERFACE_NAME := "pdp0"
 
 #BOOTANIMATION
-PRODUCT_BOOTANIMATION := vendor/cm/prebuilt/common/bootanimation/720.zip
+PRODUCT_BOOTANIMATION := vendor/mk/prebuilt/common/bootanimation/720.zip
 
 # Wifi
 BOARD_WLAN_DEVICE                := bcmdhd
